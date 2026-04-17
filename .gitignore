@@ -1,0 +1,63 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ========================
+# Large Data Files (Wikidata5M)
+# ========================
+data/wikidata5m_raw_data/
+data/wikidata5m_kg/
+
+# Large CSV exports
+outputs/music_subset_nodes.csv
+outputs/music_subset_relationships.csv
+
+# ========================
+# Neo4j credentials
+# ========================
+.env
+test_neo4j.py
+
+# ========================
+# Misc
+# ========================
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,152 @@
+[
+  {
+    "question_id": "MUSIC_COMP_001",
+    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or Arif Sag?",
+    "gold_answer": "Zulfu Livaneli",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "located in the administrative territorial entity",
+      "Konya Province"
+    ],
+    "seed_entity": "Zulfu Livaneli / Arif Sag",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_002",
+    "question_text": "Which artist was born in Erzerum (Theodosiopolis), Zulfu Livaneli or Arif Sag?",
+    "gold_answer": "Arif Sag",
+    "reasoning_path": [
+      "Arif Sag",
+      "place of birth",
+      "Theodosiopolis (Armenia)",
+      "located in the administrative territorial entity",
+      "Erzerum (Theodosiopolis)"
+    ],
+    "seed_entity": "Zulfu Livaneli / Arif Sag",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_003",
+    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or ümit besen?",
+    "gold_answer": "Zulfu Livaneli",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "located in the administrative territorial entity",
+      "Konya Province"
+    ],
+    "seed_entity": "Zulfu Livaneli / ümit besen",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_004",
+    "question_text": "Which artist was born in Province of Osmaniye, Zulfu Livaneli or ümit besen?",
+    "gold_answer": "ümit besen",
+    "reasoning_path": [
+      "ümit besen",
+      "place of birth",
+      "osmaniye",
+      "located in the administrative territorial entity",
+      "Province of Osmaniye"
+    ],
+    "seed_entity": "Zulfu Livaneli / ümit besen",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_005",
+    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or Hümeyra?",
+    "gold_answer": "Zulfu Livaneli",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "located in the administrative territorial entity",
+      "Konya Province"
+    ],
+    "seed_entity": "Zulfu Livaneli / Hümeyra",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_006",
+    "question_text": "Which artist was born in greater istanbul, Zulfu Livaneli or Hümeyra?",
+    "gold_answer": "Hümeyra",
+    "reasoning_path": [
+      "Hümeyra",
+      "place of birth",
+      "istanbul (turkey)",
+      "located in the administrative territorial entity",
+      "greater istanbul"
+    ],
+    "seed_entity": "Zulfu Livaneli / Hümeyra",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_007",
+    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or mete özgencil?",
+    "gold_answer": "Zulfu Livaneli",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "located in the administrative territorial entity",
+      "Konya Province"
+    ],
+    "seed_entity": "Zulfu Livaneli / mete özgencil",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_008",
+    "question_text": "Which artist was born in greater istanbul, Zulfu Livaneli or mete özgencil?",
+    "gold_answer": "mete özgencil",
+    "reasoning_path": [
+      "mete özgencil",
+      "place of birth",
+      "istanbul (turkey)",
+      "located in the administrative territorial entity",
+      "greater istanbul"
+    ],
+    "seed_entity": "Zulfu Livaneli / mete özgencil",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_009",
+    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or Sehrazat?",
+    "gold_answer": "Zulfu Livaneli",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "located in the administrative territorial entity",
+      "Konya Province"
+    ],
+    "seed_entity": "Zulfu Livaneli / Sehrazat",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_COMP_010",
+    "question_text": "Which artist was born in Ankara Province, Zulfu Livaneli or Sehrazat?",
+    "gold_answer": "Sehrazat",
+    "reasoning_path": [
+      "Sehrazat",
+      "place of birth",
+      "Angora, Turkey",
+      "located in the administrative territorial entity",
+      "Ankara Province"
+    ],
+    "seed_entity": "Zulfu Livaneli / Sehrazat",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  }
+]

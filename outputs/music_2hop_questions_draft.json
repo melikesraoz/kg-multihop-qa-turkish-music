@@ -1,0 +1,482 @@
+[
+  {
+    "question_id": "MUSIC_2HOP_001",
+    "question_text": "In which country was Zulfu Livaneli born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "Zulfu Livaneli",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_002",
+    "question_text": "In which administrative territorial entity is the birth place of Zulfu Livaneli located?",
+    "gold_answer": "Konya Province",
+    "reasoning_path": [
+      "Zulfu Livaneli",
+      "place of birth",
+      "ilgın",
+      "located in the administrative territorial entity",
+      "Konya Province"
+    ],
+    "seed_entity": "Zulfu Livaneli",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_003",
+    "question_text": "In which administrative territorial entity is the birth place of Arif Sag located?",
+    "gold_answer": "Erzerum (Theodosiopolis)",
+    "reasoning_path": [
+      "Arif Sag",
+      "place of birth",
+      "Theodosiopolis (Armenia)",
+      "located in the administrative territorial entity",
+      "Erzerum (Theodosiopolis)"
+    ],
+    "seed_entity": "Arif Sag",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_004",
+    "question_text": "In which country was Arif Sag born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "Arif Sag",
+      "place of birth",
+      "Theodosiopolis (Armenia)",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "Arif Sag",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_005",
+    "question_text": "What broader instrument class does the instrument used by Arif Sag belong to?",
+    "gold_answer": "Leuto",
+    "reasoning_path": [
+      "Arif Sag",
+      "instrument",
+      "baglamas",
+      "subclass of",
+      "Leuto"
+    ],
+    "seed_entity": "Arif Sag",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_006",
+    "question_text": "What type of music category is the genre associated with Arif Sag?",
+    "gold_answer": "styles of music",
+    "reasoning_path": [
+      "Arif Sag",
+      "genre",
+      "Türkü",
+      "instance of",
+      "styles of music"
+    ],
+    "seed_entity": "Arif Sag",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_007",
+    "question_text": "In which country was ümit besen born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "ümit besen",
+      "place of birth",
+      "osmaniye",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "ümit besen",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_008",
+    "question_text": "In which administrative territorial entity is the birth place of ümit besen located?",
+    "gold_answer": "Province of Osmaniye",
+    "reasoning_path": [
+      "ümit besen",
+      "place of birth",
+      "osmaniye",
+      "located in the administrative territorial entity",
+      "Province of Osmaniye"
+    ],
+    "seed_entity": "ümit besen",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_009",
+    "question_text": "What broader instrument class does the instrument used by ümit besen belong to?",
+    "gold_answer": "keyboard (instrument)",
+    "reasoning_path": [
+      "ümit besen",
+      "instrument",
+      "acoustic piano",
+      "subclass of",
+      "keyboard (instrument)"
+    ],
+    "seed_entity": "ümit besen",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_010",
+    "question_text": "In which country was Hümeyra born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "Hümeyra",
+      "place of birth",
+      "istanbul (turkey)",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "Hümeyra",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_011",
+    "question_text": "In which administrative territorial entity is the birth place of Hümeyra located?",
+    "gold_answer": "greater istanbul",
+    "reasoning_path": [
+      "Hümeyra",
+      "place of birth",
+      "istanbul (turkey)",
+      "located in the administrative territorial entity",
+      "greater istanbul"
+    ],
+    "seed_entity": "Hümeyra",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_012",
+    "question_text": "In which country was mete özgencil born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "mete özgencil",
+      "place of birth",
+      "istanbul (turkey)",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "mete özgencil",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_013",
+    "question_text": "In which administrative territorial entity is the birth place of mete özgencil located?",
+    "gold_answer": "greater istanbul",
+    "reasoning_path": [
+      "mete özgencil",
+      "place of birth",
+      "istanbul (turkey)",
+      "located in the administrative territorial entity",
+      "greater istanbul"
+    ],
+    "seed_entity": "mete özgencil",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_014",
+    "question_text": "What type of music category is the genre associated with mete özgencil?",
+    "gold_answer": "styles of music",
+    "reasoning_path": [
+      "mete özgencil",
+      "genre",
+      "History of electronic music",
+      "instance of",
+      "styles of music"
+    ],
+    "seed_entity": "mete özgencil",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_015",
+    "question_text": "What type of music category is the genre associated with Sehrazat?",
+    "gold_answer": "styles of music",
+    "reasoning_path": [
+      "Sehrazat",
+      "genre",
+      "PopStar",
+      "instance of",
+      "styles of music"
+    ],
+    "seed_entity": "Sehrazat",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_016",
+    "question_text": "What broader genre category does the music genre associated with Sehrazat belong to?",
+    "gold_answer": "Manufactured pop",
+    "reasoning_path": [
+      "Sehrazat",
+      "genre",
+      "PopStar",
+      "subclass of",
+      "Manufactured pop"
+    ],
+    "seed_entity": "Sehrazat",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_017",
+    "question_text": "In which country is the record label associated with Sehrazat located?",
+    "gold_answer": "Germanz",
+    "reasoning_path": [
+      "Sehrazat",
+      "record label",
+      "EMI Odeon",
+      "country",
+      "Germanz"
+    ],
+    "seed_entity": "Sehrazat",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_018",
+    "question_text": "In which administrative territorial entity is the birth place of Sehrazat located?",
+    "gold_answer": "Ankara Province",
+    "reasoning_path": [
+      "Sehrazat",
+      "place of birth",
+      "Angora, Turkey",
+      "located in the administrative territorial entity",
+      "Ankara Province"
+    ],
+    "seed_entity": "Sehrazat",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_019",
+    "question_text": "In which country was Sehrazat born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "Sehrazat",
+      "place of birth",
+      "Angora, Turkey",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "Sehrazat",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_020",
+    "question_text": "What broader instrument class does the instrument used by haluk levent belong to?",
+    "gold_answer": "plucked stringed instrument",
+    "reasoning_path": [
+      "haluk levent",
+      "instrument",
+      "Guiatr",
+      "subclass of",
+      "plucked stringed instrument"
+    ],
+    "seed_entity": "haluk levent",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_021",
+    "question_text": "In which administrative territorial entity is the birth place of haluk levent located?",
+    "gold_answer": "adana province, turkey",
+    "reasoning_path": [
+      "haluk levent",
+      "place of birth",
+      "adanija",
+      "located in the administrative territorial entity",
+      "adana province, turkey"
+    ],
+    "seed_entity": "haluk levent",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_022",
+    "question_text": "In which country was haluk levent born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "haluk levent",
+      "place of birth",
+      "adanija",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "haluk levent",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_023",
+    "question_text": "In which administrative territorial entity is the birth place of demet sagiroglu located?",
+    "gold_answer": "Erzerum (Theodosiopolis)",
+    "reasoning_path": [
+      "demet sagiroglu",
+      "place of birth",
+      "Theodosiopolis (Armenia)",
+      "located in the administrative territorial entity",
+      "Erzerum (Theodosiopolis)"
+    ],
+    "seed_entity": "demet sagiroglu",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_024",
+    "question_text": "In which country was demet sagiroglu born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "demet sagiroglu",
+      "place of birth",
+      "Theodosiopolis (Armenia)",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "demet sagiroglu",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_025",
+    "question_text": "What type of music category is the genre associated with demet sagiroglu?",
+    "gold_answer": "styles of music",
+    "reasoning_path": [
+      "demet sagiroglu",
+      "genre",
+      "PopStar",
+      "instance of",
+      "styles of music"
+    ],
+    "seed_entity": "demet sagiroglu",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_026",
+    "question_text": "What broader genre category does the music genre associated with demet sagiroglu belong to?",
+    "gold_answer": "Manufactured pop",
+    "reasoning_path": [
+      "demet sagiroglu",
+      "genre",
+      "PopStar",
+      "subclass of",
+      "Manufactured pop"
+    ],
+    "seed_entity": "demet sagiroglu",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_027",
+    "question_text": "In which country is the institution where İlhan Usmanbaş studied located?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "İlhan Usmanbaş",
+      "educated at",
+      "Ankara State Conservatory",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "İlhan Usmanbaş",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_028",
+    "question_text": "In which country was İlhan Usmanbaş born?",
+    "gold_answer": "turkiye",
+    "reasoning_path": [
+      "İlhan Usmanbaş",
+      "place of birth",
+      "istanbul (turkey)",
+      "country",
+      "turkiye"
+    ],
+    "seed_entity": "İlhan Usmanbaş",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_029",
+    "question_text": "In which administrative territorial entity is the birth place of İlhan Usmanbaş located?",
+    "gold_answer": "greater istanbul",
+    "reasoning_path": [
+      "İlhan Usmanbaş",
+      "place of birth",
+      "istanbul (turkey)",
+      "located in the administrative territorial entity",
+      "greater istanbul"
+    ],
+    "seed_entity": "İlhan Usmanbaş",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_030",
+    "question_text": "What type of award has İlhan Usmanbaş received?",
+    "gold_answer": "Titles of Honour",
+    "reasoning_path": [
+      "İlhan Usmanbaş",
+      "award received",
+      "state artist",
+      "instance of",
+      "Titles of Honour"
+    ],
+    "seed_entity": "İlhan Usmanbaş",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_031",
+    "question_text": "In which country was Aynur Aydin born?",
+    "gold_answer": "queens of bavaria",
+    "reasoning_path": [
+      "Aynur Aydin",
+      "place of birth",
+      "monaco of bavaria",
+      "country",
+      "queens of bavaria"
+    ],
+    "seed_entity": "Aynur Aydin",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "MUSIC_2HOP_032",
+    "question_text": "In which administrative territorial entity is the birth place of Aynur Aydin located?",
+    "gold_answer": "Upper Bavaria",
+    "reasoning_path": [
+      "Aynur Aydin",
+      "place of birth",
+      "monaco of bavaria",
+      "located in the administrative territorial entity",
+      "Upper Bavaria"
+    ],
+    "seed_entity": "Aynur Aydin",
+    "difficulty": "2-hop",
+    "domain": "Turkish Music"
+  }
+]

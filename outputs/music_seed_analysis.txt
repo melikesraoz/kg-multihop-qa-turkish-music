@@ -1,0 +1,326 @@
+================================================================================
+SEED: Q248059 | Zulfu Livaneli
+1-hop edges: 18
+1-hop unique neighbors: 18
+1-hop relation types: 9
+2-hop candidate paths: 1909634
+Top relations:
+  P106 | occupation | 7
+  P57 | director | 3
+  P86 | composer | 2
+  P31 | instance of | 1
+  P19 | place of birth | 1
+  P27 | country of citizenship | 1
+  P1412 | languages spoken, written or signed | 1
+  P463 | member of | 1
+Sample 2-hop paths:
+  Zulfu Livaneli --[occupation]--> Politician --[occupation]--> J. B. Maple
+  Zulfu Livaneli --[occupation]--> Politician --[occupation]--> senator felix ibru
+  Zulfu Livaneli --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Zulfu Livaneli --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Zulfu Livaneli --[instance of]--> Huamn --[instance of]--> mickey owen
+  Zulfu Livaneli --[occupation]--> Film Directors --[occupation]--> Samir Ganguly
+  Zulfu Livaneli --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Zulfu Livaneli --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+================================================================================
+SEED: Q660599 | Arif Sag
+1-hop edges: 9
+1-hop unique neighbors: 9
+1-hop relation types: 8
+2-hop candidate paths: 1773100
+Top relations:
+  P106 | occupation | 2
+  P1412 | languages spoken, written or signed | 1
+  P19 | place of birth | 1
+  P27 | country of citizenship | 1
+  P101 | field of work | 1
+  P1303 | instrument | 1
+  P31 | instance of | 1
+  P136 | genre | 1
+Sample 2-hop paths:
+  Arif Sag --[occupation]--> Politician --[occupation]--> J. B. Maple
+  Arif Sag --[occupation]--> Politician --[occupation]--> senator felix ibru
+  Arif Sag --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Arif Sag --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Arif Sag --[instance of]--> Huamn --[instance of]--> mickey owen
+  Arif Sag --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Arif Sag --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Arif Sag --[occupation]--> Politician --[occupation]--> Chaudhary Babulal
+================================================================================
+SEED: Q334814 | ümit besen
+1-hop edges: 7
+1-hop unique neighbors: 7
+1-hop relation types: 6
+2-hop candidate paths: 1681254
+Top relations:
+  P106 | occupation | 2
+  P27 | country of citizenship | 1
+  P735 | given name | 1
+  P19 | place of birth | 1
+  P1303 | instrument | 1
+  P31 | instance of | 1
+Sample 2-hop paths:
+  ümit besen --[instance of]--> Huamn --[instance of]--> stojan cerović
+  ümit besen --[instance of]--> Huamn --[instance of]--> alberto seidi
+  ümit besen --[instance of]--> Huamn --[instance of]--> mickey owen
+  ümit besen --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  ümit besen --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  ümit besen --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  ümit besen --[instance of]--> Huamn --[instance of]--> vera higgins
+  ümit besen --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q962106 | Hümeyra
+1-hop edges: 13
+1-hop unique neighbors: 13
+1-hop relation types: 5
+2-hop candidate paths: 1675377
+Top relations:
+  P161 | cast member | 8
+  P106 | occupation | 2
+  P27 | country of citizenship | 1
+  P19 | place of birth | 1
+  P31 | instance of | 1
+Sample 2-hop paths:
+  Hümeyra --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Hümeyra --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Hümeyra --[instance of]--> Huamn --[instance of]--> mickey owen
+  Hümeyra --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Hümeyra --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Hümeyra --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Hümeyra --[instance of]--> Huamn --[instance of]--> vera higgins
+  Hümeyra --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q4810316 | Gonul Yazar
+1-hop edges: 6
+1-hop unique neighbors: 6
+1-hop relation types: 5
+2-hop candidate paths: 1672592
+Top relations:
+  P106 | occupation | 2
+  P166 | award received | 1
+  P19 | place of birth | 1
+  P31 | instance of | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> mickey owen
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> vera higgins
+  Gonul Yazar --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q6823378 | mete özgencil
+1-hop edges: 8
+1-hop unique neighbors: 8
+1-hop relation types: 5
+2-hop candidate paths: 1666801
+Top relations:
+  P106 | occupation | 4
+  P19 | place of birth | 1
+  P136 | genre | 1
+  P31 | instance of | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  mete özgencil --[instance of]--> Huamn --[instance of]--> stojan cerović
+  mete özgencil --[instance of]--> Huamn --[instance of]--> alberto seidi
+  mete özgencil --[instance of]--> Huamn --[instance of]--> mickey owen
+  mete özgencil --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  mete özgencil --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  mete özgencil --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  mete özgencil --[instance of]--> Huamn --[instance of]--> vera higgins
+  mete özgencil --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q388757 | Sehrazat
+1-hop edges: 10
+1-hop unique neighbors: 10
+1-hop relation types: 6
+2-hop candidate paths: 1665090
+Top relations:
+  P106 | occupation | 5
+  P31 | instance of | 1
+  P136 | genre | 1
+  P264 | record label | 1
+  P19 | place of birth | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  Sehrazat --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Sehrazat --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Sehrazat --[instance of]--> Huamn --[instance of]--> mickey owen
+  Sehrazat --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Sehrazat --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Sehrazat --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Sehrazat --[instance of]--> Huamn --[instance of]--> vera higgins
+  Sehrazat --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q240368 | haluk levent
+1-hop edges: 7
+1-hop unique neighbors: 7
+1-hop relation types: 7
+2-hop candidate paths: 1607121
+Top relations:
+  P1303 | instrument | 1
+  P735 | given name | 1
+  P31 | instance of | 1
+  P19 | place of birth | 1
+  P27 | country of citizenship | 1
+  P1412 | languages spoken, written or signed | 1
+  P106 | occupation | 1
+Sample 2-hop paths:
+  haluk levent --[instance of]--> Huamn --[instance of]--> stojan cerović
+  haluk levent --[instance of]--> Huamn --[instance of]--> alberto seidi
+  haluk levent --[instance of]--> Huamn --[instance of]--> mickey owen
+  haluk levent --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  haluk levent --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  haluk levent --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  haluk levent --[instance of]--> Huamn --[instance of]--> vera higgins
+  haluk levent --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q6093986 | demet sagiroglu
+1-hop edges: 5
+1-hop unique neighbors: 5
+1-hop relation types: 5
+2-hop candidate paths: 1605690
+Top relations:
+  P27 | country of citizenship | 1
+  P19 | place of birth | 1
+  P106 | occupation | 1
+  P31 | instance of | 1
+  P136 | genre | 1
+Sample 2-hop paths:
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> stojan cerović
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> alberto seidi
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> mickey owen
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> vera higgins
+  demet sagiroglu --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q3631393 | ayten alpman
+1-hop edges: 4
+1-hop unique neighbors: 4
+1-hop relation types: 4
+2-hop candidate paths: 1595030
+Top relations:
+  P19 | place of birth | 1
+  P31 | instance of | 1
+  P106 | occupation | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  ayten alpman --[instance of]--> Huamn --[instance of]--> stojan cerović
+  ayten alpman --[instance of]--> Huamn --[instance of]--> alberto seidi
+  ayten alpman --[instance of]--> Huamn --[instance of]--> mickey owen
+  ayten alpman --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  ayten alpman --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  ayten alpman --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  ayten alpman --[instance of]--> Huamn --[instance of]--> vera higgins
+  ayten alpman --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q4765991 | Ankarali Turgut
+1-hop edges: 5
+1-hop unique neighbors: 5
+1-hop relation types: 5
+2-hop candidate paths: 1592722
+Top relations:
+  P106 | occupation | 1
+  P27 | country of citizenship | 1
+  P19 | place of birth | 1
+  P1303 | instrument | 1
+  P31 | instance of | 1
+Sample 2-hop paths:
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> mickey owen
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> vera higgins
+  Ankarali Turgut --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q343693 | İlhan Usmanbaş
+1-hop edges: 9
+1-hop unique neighbors: 9
+1-hop relation types: 8
+2-hop candidate paths: 1592660
+Top relations:
+  P69 | educated at | 2
+  P31 | instance of | 1
+  P1412 | languages spoken, written or signed | 1
+  P19 | place of birth | 1
+  P166 | award received | 1
+  P27 | country of citizenship | 1
+  P106 | occupation | 1
+  P735 | given name | 1
+Sample 2-hop paths:
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> stojan cerović
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> alberto seidi
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> mickey owen
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> vera higgins
+  İlhan Usmanbaş --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q5389659 | Erkin Hadimoglu
+1-hop edges: 4
+1-hop unique neighbors: 4
+1-hop relation types: 4
+2-hop candidate paths: 1570692
+Top relations:
+  P106 | occupation | 1
+  P1303 | instrument | 1
+  P31 | instance of | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> mickey owen
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> vera higgins
+  Erkin Hadimoglu --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q4156426 | Aynur Aydin
+1-hop edges: 7
+1-hop unique neighbors: 7
+1-hop relation types: 7
+2-hop candidate paths: 1565390
+Top relations:
+  P735 | given name | 1
+  P31 | instance of | 1
+  P19 | place of birth | 1
+  P106 | occupation | 1
+  P136 | genre | 1
+  P175 | performer | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> mickey owen
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> vera higgins
+  Aynur Aydin --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)
+================================================================================
+SEED: Q1992506 | Nilufer Orer
+1-hop edges: 3
+1-hop unique neighbors: 3
+1-hop relation types: 3
+2-hop candidate paths: 1552849
+Top relations:
+  P31 | instance of | 1
+  P19 | place of birth | 1
+  P27 | country of citizenship | 1
+Sample 2-hop paths:
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> stojan cerović
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> alberto seidi
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> mickey owen
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> Thanos Konstantakopoulos
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> Kazys Šimonis
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> anthony cordesman
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> vera higgins
+  Nilufer Orer --[instance of]--> Huamn --[instance of]--> francisco portillo (footballer, born 1984)

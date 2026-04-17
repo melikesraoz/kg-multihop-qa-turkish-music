@@ -1,0 +1,20 @@
+Original Query: In which country was Zulfu Livaneli born?
+
+Seed: Zulfu Livaneli (Q248059)
+
+KG Summary:
+Zulfu Livaneli was born in ilgın. ilgın is located in Konya Province. ilgın is in turkiye. Zulfu Livaneli has citizenship in turkiye.
+
+Expanded Query:
+What is the birthplace of Zulfu Livaneli?
+
+Passage Note:
+Ömer Zülfü Livanelioğlu (born June 20, 1946), better known as Zülfü Livaneli, is a Turkish musician, author,  poet, and politician.Livaneli is known for his novels that interweave diverse social and historical backgrounds, figures, and incidents, such as in Bliss which won the Barnes & Noble's Discovery of Great New Writers Award in 2006, and in his Serenade for Nadia, Leyla's House, and My Brother's Story, which were all translated into 37 languages and won numerous Turkish and International li
+
+Enhanced Note:
+Ömer Zülfü Livanelioğlu (born June 20, 1946), better known as Zülfü Livaneli, is a Turkish musician, author,  poet, and politician.Livaneli is known for his novels that interweave diverse social and historical backgrounds, figures, and incidents, such as in Bliss which won the Barnes & Noble's Discovery of Great New Writers Award in 2006, and in his Serenade for Nadia, Leyla's House, and My Brother's Story, which were all translated into 37 languages and won numerous Turkish and International li
+
+Knowledge graph facts: Zulfu Livaneli was born in ilgın. ilgın is located in Konya Province. ilgın is in turkiye. Zulfu Livaneli has citizenship in turkiye.
+
+Final Answer:
+turkiye

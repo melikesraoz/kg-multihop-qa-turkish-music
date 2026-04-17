@@ -1,0 +1,100 @@
+seed_id	seed_name	r1	r1_name	mid	mid_name	r2	r2_name	end	end_name	template_hint
+Q248059	Zulfu Livaneli	P106	occupation	Q82955	Politician	P31	instance of	Q28640	professions	Zulfu Livaneli --[P106]--> Politician --[P31]--> professions
+Q248059	Zulfu Livaneli	P19	place of birth	Q1914881	ilgın	P17	country	Q43	turkiye	What is the country of birth place of Zulfu Livaneli?
+Q248059	Zulfu Livaneli	P19	place of birth	Q1914881	ilgın	P131	located in the administrative territorial entity	Q81551	Konya Province	In which administrative area is the birth place of Zulfu Livaneli located?
+Q248059	Zulfu Livaneli	P106	occupation	Q2526255	Film Directors	P279	subclass of	Q3455803	regisseur	What broader occupational class does Zulfu Livaneli's occupation belong to?
+Q248059	Zulfu Livaneli	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	Zulfu Livaneli --[P106]--> vocalist --[P31]--> professions
+Q248059	Zulfu Livaneli	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q639669	music career	What broader occupational class does Zulfu Livaneli's occupation belong to?
+Q248059	Zulfu Livaneli	P106	occupation	Q36834	timothy thompson (composer)	P31	instance of	Q28640	professions	Zulfu Livaneli --[P106]--> timothy thompson (composer) --[P31]--> professions
+Q248059	Zulfu Livaneli	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q482980	Auther	What broader occupational class does Zulfu Livaneli's occupation belong to?
+Q248059	Zulfu Livaneli	P106	occupation	Q28389	screen-writer	P31	instance of	Q28640	professions	Zulfu Livaneli --[P106]--> screen-writer --[P31]--> professions
+Q248059	Zulfu Livaneli	P106	occupation	Q28389	screen-writer	P279	subclass of	Q36180	Writter	What broader occupational class does Zulfu Livaneli's occupation belong to?
+Q248059	Zulfu Livaneli	P106	occupation	Q49757	poetess	P31	instance of	Q28640	professions	Zulfu Livaneli --[P106]--> poetess --[P31]--> professions
+Q248059	Zulfu Livaneli	P106	occupation	Q49757	poetess	P279	subclass of	Q36180	Writter	What broader occupational class does Zulfu Livaneli's occupation belong to?
+Q248059	Zulfu Livaneli	P106	occupation	Q36180	Writter	P31	instance of	Q28640	professions	Zulfu Livaneli --[P106]--> Writter --[P31]--> professions
+Q248059	Zulfu Livaneli	P106	occupation	Q36180	Writter	P279	subclass of	Q482980	Auther	What broader occupational class does Zulfu Livaneli's occupation belong to?
+Q660599	Arif Sag	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	Arif Sag --[P106]--> vocalist --[P31]--> professions
+Q660599	Arif Sag	P19	place of birth	Q122803	Theodosiopolis (Armenia)	P131	located in the administrative territorial entity	Q376797	Erzerum (Theodosiopolis)	In which administrative area is the birth place of Arif Sag located?
+Q660599	Arif Sag	P19	place of birth	Q122803	Theodosiopolis (Armenia)	P17	country	Q43	turkiye	What is the country of birth place of Arif Sag?
+Q660599	Arif Sag	P1303	instrument	Q528239	baglamas	P279	subclass of	Q180733	Leuto	What broader instrument class does the instrument of Arif Sag belong to?
+Q660599	Arif Sag	P1303	instrument	Q528239	baglamas	P279	subclass of	Q230262	plucked stringed instrument	What broader instrument class does the instrument of Arif Sag belong to?
+Q660599	Arif Sag	P136	genre	Q1939197	Türkü	P31	instance of	Q188451	styles of music	Arif Sag --[P136]--> Türkü --[P31]--> styles of music
+Q660599	Arif Sag	P106	occupation	Q82955	Politician	P31	instance of	Q28640	professions	Arif Sag --[P106]--> Politician --[P31]--> professions
+Q334814	ümit besen	P106	occupation	Q33999	Television actor	P31	instance of	Q28640	professions	ümit besen --[P106]--> Television actor --[P31]--> professions
+Q334814	ümit besen	P106	occupation	Q33999	Television actor	P279	subclass of	Q483501	👨🏽‍🎨	What broader occupational class does ümit besen's occupation belong to?
+Q334814	ümit besen	P19	place of birth	Q181379	osmaniye	P17	country	Q43	turkiye	What is the country of birth place of ümit besen?
+Q334814	ümit besen	P19	place of birth	Q181379	osmaniye	P131	located in the administrative territorial entity	Q281206	Province of Osmaniye	In which administrative area is the birth place of ümit besen located?
+Q334814	ümit besen	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	ümit besen --[P106]--> vocalist --[P31]--> professions
+Q334814	ümit besen	P1303	instrument	Q5994	acoustic piano	P279	subclass of	Q52954	keyboard (instrument)	What broader instrument class does the instrument of ümit besen belong to?
+Q962106	Hümeyra	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q12544	byzantine (eastern roman) empire	What is the country of birth place of Hümeyra?
+Q962106	Hümeyra	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q12560	Ottoman empire	What is the country of birth place of Hümeyra?
+Q962106	Hümeyra	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q43	turkiye	What is the country of birth place of Hümeyra?
+Q962106	Hümeyra	P19	place of birth	Q406	istanbul (turkey)	P131	located in the administrative territorial entity	Q534799	greater istanbul	In which administrative area is the birth place of Hümeyra located?
+Q962106	Hümeyra	P106	occupation	Q33999	Television actor	P31	instance of	Q28640	professions	Hümeyra --[P106]--> Television actor --[P31]--> professions
+Q962106	Hümeyra	P106	occupation	Q33999	Television actor	P279	subclass of	Q483501	👨🏽‍🎨	What broader occupational class does Hümeyra's occupation belong to?
+Q962106	Hümeyra	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	Hümeyra --[P106]--> vocalist --[P31]--> professions
+Q6823378	mete özgencil	P106	occupation	Q753110	Songwriting	P31	instance of	Q28640	professions	mete özgencil --[P106]--> Songwriting --[P31]--> professions
+Q6823378	mete özgencil	P106	occupation	Q753110	Songwriting	P279	subclass of	Q822146	lyricists	What broader occupational class does mete özgencil's occupation belong to?
+Q6823378	mete özgencil	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q12544	byzantine (eastern roman) empire	What is the country of birth place of mete özgencil?
+Q6823378	mete özgencil	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q12560	Ottoman empire	What is the country of birth place of mete özgencil?
+Q6823378	mete özgencil	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q43	turkiye	What is the country of birth place of mete özgencil?
+Q6823378	mete özgencil	P19	place of birth	Q406	istanbul (turkey)	P131	located in the administrative territorial entity	Q534799	greater istanbul	In which administrative area is the birth place of mete özgencil located?
+Q6823378	mete özgencil	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q639669	music career	What broader occupational class does mete özgencil's occupation belong to?
+Q6823378	mete özgencil	P106	occupation	Q36834	timothy thompson (composer)	P31	instance of	Q28640	professions	mete özgencil --[P106]--> timothy thompson (composer) --[P31]--> professions
+Q6823378	mete özgencil	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q482980	Auther	What broader occupational class does mete özgencil's occupation belong to?
+Q6823378	mete özgencil	P106	occupation	Q28389	screen-writer	P31	instance of	Q28640	professions	mete özgencil --[P106]--> screen-writer --[P31]--> professions
+Q6823378	mete özgencil	P106	occupation	Q28389	screen-writer	P279	subclass of	Q36180	Writter	What broader occupational class does mete özgencil's occupation belong to?
+Q6823378	mete özgencil	P136	genre	Q9778	History of electronic music	P31	instance of	Q188451	styles of music	mete özgencil --[P136]--> History of electronic music --[P31]--> styles of music
+Q6823378	mete özgencil	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	mete özgencil --[P106]--> vocalist --[P31]--> professions
+Q388757	Sehrazat	P136	genre	Q37073	PopStar	P31	instance of	Q188451	styles of music	Sehrazat --[P136]--> PopStar --[P31]--> styles of music
+Q388757	Sehrazat	P136	genre	Q37073	PopStar	P279	subclass of	Q373342	Manufactured pop	What broader genre category does Sehrazat's music genre belong to?
+Q388757	Sehrazat	P106	occupation	Q183945	music production (music industry)	P279	subclass of	Q639669	music career	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q183945	music production (music industry)	P279	subclass of	Q1162163	Director (business)	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q183945	music production (music industry)	P31	instance of	Q28640	professions	Sehrazat --[P106]--> music production (music industry) --[P31]--> professions
+Q388757	Sehrazat	P264	record label	Q706013	EMI Odeon	P17	country	Q183	Germanz	In which country is the record label of Sehrazat located?
+Q388757	Sehrazat	P19	place of birth	Q3640	Angora, Turkey	P131	located in the administrative territorial entity	Q2297724	Ankara Province	In which administrative area is the birth place of Sehrazat located?
+Q388757	Sehrazat	P19	place of birth	Q3640	Angora, Turkey	P131	located in the administrative territorial entity	Q1249412	Galatia Salutaris	In which administrative area is the birth place of Sehrazat located?
+Q388757	Sehrazat	P19	place of birth	Q3640	Angora, Turkey	P17	country	Q43	turkiye	What is the country of birth place of Sehrazat?
+Q388757	Sehrazat	P19	place of birth	Q3640	Angora, Turkey	P131	located in the administrative territorial entity	Q1345660	vilayet of angora	In which administrative area is the birth place of Sehrazat located?
+Q388757	Sehrazat	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	Sehrazat --[P106]--> vocalist --[P31]--> professions
+Q388757	Sehrazat	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q639669	music career	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q36834	timothy thompson (composer)	P31	instance of	Q28640	professions	Sehrazat --[P106]--> timothy thompson (composer) --[P31]--> professions
+Q388757	Sehrazat	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q482980	Auther	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q753110	Songwriting	P31	instance of	Q28640	professions	Sehrazat --[P106]--> Songwriting --[P31]--> professions
+Q388757	Sehrazat	P106	occupation	Q753110	Songwriting	P279	subclass of	Q822146	lyricists	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q822146	lyricists	P279	subclass of	Q36180	Writter	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q822146	lyricists	P279	subclass of	Q49757	poetess	What broader occupational class does Sehrazat's occupation belong to?
+Q388757	Sehrazat	P106	occupation	Q822146	lyricists	P31	instance of	Q28640	professions	Sehrazat --[P106]--> lyricists --[P31]--> professions
+Q240368	haluk levent	P1303	instrument	Q6607	Guiatr	P279	subclass of	Q230262	plucked stringed instrument	What broader instrument class does the instrument of haluk levent belong to?
+Q240368	haluk levent	P19	place of birth	Q38545	adanija	P131	located in the administrative territorial entity	Q40549	adana province, turkey	In which administrative area is the birth place of haluk levent located?
+Q240368	haluk levent	P19	place of birth	Q38545	adanija	P17	country	Q43	turkiye	What is the country of birth place of haluk levent?
+Q240368	haluk levent	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	haluk levent --[P106]--> vocalist --[P31]--> professions
+Q6093986	demet sagiroglu	P19	place of birth	Q122803	Theodosiopolis (Armenia)	P131	located in the administrative territorial entity	Q376797	Erzerum (Theodosiopolis)	In which administrative area is the birth place of demet sagiroglu located?
+Q6093986	demet sagiroglu	P19	place of birth	Q122803	Theodosiopolis (Armenia)	P17	country	Q43	turkiye	What is the country of birth place of demet sagiroglu?
+Q6093986	demet sagiroglu	P106	occupation	Q177220	vocalist	P31	instance of	Q28640	professions	demet sagiroglu --[P106]--> vocalist --[P31]--> professions
+Q6093986	demet sagiroglu	P136	genre	Q37073	PopStar	P31	instance of	Q188451	styles of music	demet sagiroglu --[P136]--> PopStar --[P31]--> styles of music
+Q6093986	demet sagiroglu	P136	genre	Q37073	PopStar	P279	subclass of	Q373342	Manufactured pop	What broader genre category does demet sagiroglu's music genre belong to?
+Q343693	İlhan Usmanbaş	P69	educated at	Q4386612	Ankara State Conservatory	P17	country	Q43	turkiye	In which country is the institution where İlhan Usmanbaş studied located?
+Q343693	İlhan Usmanbaş	P69	educated at	Q1007545	Galatasaray Lyceum	P17	country	Q43	turkiye	In which country is the institution where İlhan Usmanbaş studied located?
+Q343693	İlhan Usmanbaş	P69	educated at	Q1007545	Galatasaray Lyceum	P131	located in the administrative territorial entity	Q406	istanbul (turkey)	İlhan Usmanbaş --[P69]--> Galatasaray Lyceum --[P131]--> istanbul (turkey)
+Q343693	İlhan Usmanbaş	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q12544	byzantine (eastern roman) empire	What is the country of birth place of İlhan Usmanbaş?
+Q343693	İlhan Usmanbaş	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q12560	Ottoman empire	What is the country of birth place of İlhan Usmanbaş?
+Q343693	İlhan Usmanbaş	P19	place of birth	Q406	istanbul (turkey)	P17	country	Q43	turkiye	What is the country of birth place of İlhan Usmanbaş?
+Q343693	İlhan Usmanbaş	P19	place of birth	Q406	istanbul (turkey)	P131	located in the administrative territorial entity	Q534799	greater istanbul	In which administrative area is the birth place of İlhan Usmanbaş located?
+Q343693	İlhan Usmanbaş	P166	award received	Q7603040	state artist	P17	country	Q43	turkiye	İlhan Usmanbaş --[P166]--> state artist --[P17]--> turkiye
+Q343693	İlhan Usmanbaş	P166	award received	Q7603040	state artist	P31	instance of	Q3320743	Titles of Honour	What type of award has İlhan Usmanbaş received?
+Q343693	İlhan Usmanbaş	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q639669	music career	What broader occupational class does İlhan Usmanbaş's occupation belong to?
+Q343693	İlhan Usmanbaş	P106	occupation	Q36834	timothy thompson (composer)	P31	instance of	Q28640	professions	İlhan Usmanbaş --[P106]--> timothy thompson (composer) --[P31]--> professions
+Q343693	İlhan Usmanbaş	P106	occupation	Q36834	timothy thompson (composer)	P279	subclass of	Q482980	Auther	What broader occupational class does İlhan Usmanbaş's occupation belong to?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q154195	queens of bavaria	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q7318	history of germany during world war ii	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q256961	Electoral Bavaria	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q2415901	Allied Occupation of Germany	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P131	located in the administrative territorial entity	Q10562	Upper Bavaria	In which administrative area is the birth place of Aynur Aydin located?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q41304	Weimar regime	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q183	Germanz	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q43287	deutsches kaiserreich	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P19	place of birth	Q1726	monaco of bavaria	P17	country	Q713750	History of West Germany	What is the country of birth place of Aynur Aydin?
+Q4156426	Aynur Aydin	P106	occupation	Q488205	Singer songwriter	P279	subclass of	Q177220	vocalist	What broader occupational class does Aynur Aydin's occupation belong to?
+Q4156426	Aynur Aydin	P106	occupation	Q488205	Singer songwriter	P279	subclass of	Q753110	Songwriting	What broader occupational class does Aynur Aydin's occupation belong to?
+Q4156426	Aynur Aydin	P106	occupation	Q488205	Singer songwriter	P31	instance of	Q28640	professions	Aynur Aydin --[P106]--> Singer songwriter --[P31]--> professions

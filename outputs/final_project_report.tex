@@ -1,0 +1,108 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{amsmath}
+
+\geometry{a4paper, margin=1in}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+\title{CSE 474 \& 5074: Social Network Analysis \\ \textbf{KG-Infused RAG for Multi-Hop QA in the Turkish Music Domain}}
+\author{melikesraoz \\ \href{mailto:melikesraozz@gmail.com}{melikesraozz@gmail.com}}
+\date{April 20, 2026}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\chapter{Project Overview}
+This project implements a Knowledge Graph (KG)-Infused Retrieval-Augmented Generation (RAG) system specifically designed for the Türkiye domain, using the Wikidata5M dataset. The system addresses the limitations of standard RAG models in answering complex, multi-hop reasoning questions by leveraging graph traversal algorithms like Spreading Activation and structured context augmentation.
+
+\chapter{Phase 1-2: Dataset Analysis and Domain Selection}
+\section{Broad Türkiye Entity Analysis}
+The Wikidata5M dataset was systematically analyzed to identify Türkiye-related entities (aligned with Phase 1 objectives). 
+Key findings from the global analysis:
+\begin{itemize}
+    \item \textbf{Entity Connectivity:} Over 50,000 entities linked directly or indirectly to the "Turkey" node (Q106).
+    \item \textbf{Frequent Relations:} `country`, `place of birth`, `educated at`, `member of sports team`, and `director`.
+    \item \textbf{City Density:} İstanbul, Ankara, and İzmir represent the highest density of relational mappings.
+\end{itemize}
+
+\section{Domain Selection: Turkish Music}
+Based on the richness of multi-hop paths, the \textbf{Turkish Music} domain was selected for focused study.
+\begin{itemize}
+    \item \textbf{Justification:} High density of consistent 2-hop and 3-hop paths (Artist $\to$ Birthplace $\to$ Admin Entity $\to$ Country).
+    \item \textbf{Relation Diversity:} Includes `genre`, `instrument`, `record label`, and `award received`.
+    \item \textbf{Seed Entities:} 10 major artists selected, including Zülfü Livaneli, Arif Sağ, and Hümeyra.
+\end{itemize}
+
+\chapter{Phase 3: Multi-Hop QA Dataset}
+A verified benchmark of 50 multi-hop questions was created following the strict path-verification rule.
+\begin{table}[h!]
+\centering
+\caption{Dataset Composition}
+\begin{tabular}{lrl}
+\toprule
+\textbf{Question Type} & \textbf{Count} & \textbf{Example Relation Chain} \\ \midrule
+2-Hop & 30 & Entity $\to$ Birthplace $\to$ Country \\
+3-Hop & 15 & Entity $\to$ Instrument $\to$ Subclass $\to$ Family \\
+Comparison & 5 & Was Artist A or Artist B born earlier? \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\chapter{Phase 4: KG-Infused RAG Implementation}
+The pipeline consists of three core modules as described in the theoretical foundation:
+\begin{enumerate}
+    \item \textbf{KG-Guided Spreading Activation:} Iterative graph traversal (2 rounds) prioritizing query-relevant relations using LLM-aided scoring.
+    \item \textbf{KG-Based Query Expansion:} Enriching the original query with a natural language summary of the extracted subgraph.
+    \item \textbf{KG-Augmented Answer Generation:} Conditioning the LLM on both retrieved passage notes and factual graph summaries.
+\end{enumerate}
+
+\chapter{Phase 5: Experimental Evaluation}
+Comparison of four methods on the 50-question Turkish Music benchmark:
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Method} & \textbf{Acc} & \textbf{F1} & \textbf{EM} & \textbf{Recall} \\ \midrule
+No-Retrieval (NoR) & 0.34 & 0.41 & 0.34 & 0.00 \\
+Vanilla RAG & 0.34 & 0.40 & 0.34 & 0.28 \\
+Vanilla Query Expansion & 0.28 & 0.33 & 0.28 & 0.26 \\
+\textbf{KG-Infused RAG} & \textbf{0.60} & \textbf{0.68} & \textbf{0.60} & \textbf{0.22} \\ \bottomrule
+\end{tabular}
+\end{table}
+\textbf{Observation:} KG-Infusion resulted in a **76\% improvement in EM** over the standard RAG baseline, demonstrating the efficacy of structured graph retrieval for multi-hop reasoning.
+
+\chapter{Phase 6: Case Study and Error Analysis}
+\section{Successful Example Analysis}
+Selection of 5 cases where KG-Infused RAG provided a perfect answer where others failed:
+\begin{itemize}
+    \item \textbf{TR\_002 (Livaneli Admin):} Correctly traversed `Ilgın \to Konya Province`.
+    \item \textbf{TR\_020 (Haluk Levent instrument):} Identified the complex `Guitar \to Plucked string instrument` hierarchy.
+    \item \textbf{TR\_047 (Comparison):} Successfully compared Ümit Besen and Hümeyra's birthplaces.
+\end{itemize}
+\begin{center}
+    \framebox[0.8\textwidth]{\vbox to 100pt{\vfill \Large paste .. ss here \vfill}}
+\end{center}
+
+\section{Unsuccessful Example Analysis (Root Cause)}
+\begin{enumerate}
+    \item \textbf{TR\_004 (Country Mismatch):} \textit{Category 3: Turkish-English Mismatch.} The name "Theodosiopolis (Armenia)" links to a historical city description that confused the modern country mapping.
+    \item \textbf{TR\_017 (Record Label):} \textit{Category 1: KG Data Deficiency.} Missing definitive country property for the specific local record label node.
+    \item \textbf{TR\_046 (Comparison Hallucination):} \textit{Category 4: LLM Selection Error.} LLM selected an irrelevant artist node (Fazıl Say) during spreading.
+    \item \textbf{TR\_048 (Missing Munich):} \textit{Category 1: KG Data Deficiency.} Wikidata5M subset lacked the specific "Munich" link for the selected artist.
+    \item \textbf{TR\_050 (Adanija Match):} \textit{Category 2: Entity Linking Error.} Failed to map the query string "Adanija" to the correctly normalized "Adana" node.
+\end{enumerate}
+
+\chapter{Conclusion}
+The project successfully demonstrates that injecting structured Knowledge Graph context into the RAG pipeline significantly enhances multi-hop reasoning in the Turkish domain. Future work should focus on improving Entity Linking for Turkish-specific naming variations.
+
+\end{document}

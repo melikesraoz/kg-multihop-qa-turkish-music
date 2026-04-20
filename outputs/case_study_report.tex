@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=1in}
+
+\title{PHASE 6: CASE STUDY AND ERROR ANALYSIS REPORT \\ Social Network Analysis Project}
+\author{Social Network Analysis Team}
+\date{April 20, 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This report provides a detailed examination of successful and unsuccessful cases in the Türkiye-focused Knowledge Graph Question Answering (KG-QA) pipeline over the Turkish Music domain. The objective is to identify systemic patterns and root causes of success and failure to suggest improvements for future work.
+
+\section{Successful Case Studies}
+
+\subsection{Case Study \#1: TR\_002 (Multi-Round Spreading)}
+\textbf{Question:} Zülfü Livaneli's place of birth's located in the administrative territorial entity is what? \\
+\textbf{Gold Answer:} Konya Province \\
+\textbf{System Answer:} Konya Province. \\
+\textbf{Analysis:} This case demonstrates the power of multi-round spreading activation. The system correctly identifies "Ilgın" in Round 1 and traverses to "Konya Province" in Round 2. Baselines like No-Retrieval failed by providing general country names.
+\\ \\
+\textit{Neo4j Visualization:}
+\begin{center}
+    \framebox[0.8\textwidth]{\vbox to 100pt{\vfill \Large paste .. ss here \vfill}}
+\end{center}
+
+\subsection{Case Study \#2: TR\_006 (Ontological Categorization)}
+\textbf{Question:} Arif Sağ's genre's instance of is what? \\
+\textbf{Gold Answer:} styles of music \\
+\textbf{System Answer:} styles of music \\
+\textbf{Analysis:} Successful extraction of high-level ontological concepts. The Spreading Activation algorithm prioritized the `instance of` relation correctly after focusing on the `genre` entity.
+
+\subsection{Case Study \#3: TR\_008 (Specific Geographic Retrieval)}
+\textbf{Question:} Ümit Besen's place of birth's located in the administrative territorial entity is what? \\
+\textbf{Gold Answer:} Province of Osmaniye \\
+\textbf{System Answer:} Province of Osmaniye \\
+\textbf{Analysis:} The KG-Infused RAG correctly bypassed simpler "Turkey" answers produced by Vanilla RAG, pinpointing the exact province level thanks to KG facts included in the context note.
+
+\subsection{Case Study \#4: TR\_020 (Musical Instrument Hierarchy)}
+\textbf{Question:} Haluk Levent's instrument's subclass of is what? \\
+\textbf{Gold Answer:} plucked stringed instrument \\
+\textbf{System Answer:} Plucked stringed instrument. \\
+\textbf{Analysis:} This success highlights the system's ability to navigate the instrument taxonomy. The LLM correctly selected the `subclass of` relation from "Guitar" to reach the gold answer.
+
+\subsection{Case Study \#5: TR\_009 (Direct Instrument Query)}
+\textbf{Question:} Ümit Besen's instrument's subclass of is what? \\
+\textbf{Gold Answer:} keyboard (instrument) \\
+\textbf{System Answer:} keyboard (instrument) \\
+\textbf{Analysis:} Precise retrieval of the musical family. The spreading activation rounds correctly limited the search space to musical attributes.
+
+\newpage
+
+\section{Unsuccessful Case Studies (Error Analysis)}
+
+\subsection{Case Study \#1: TR\_004 (Entity Linking / Translation)}
+\textbf{Question:} Arif Sağ's place of birth's country is what? \\
+\textbf{Gold Answer:} turkiye \\
+\textbf{System Answer:} Armenia \\
+\textbf{Analysis:} \textbf{Error Category 3: Turkish-English Mismatch.} The birth city was linked to "Theodosiopolis (Armenia)" in the English KG. While geologically accurate in a historical context within the dataset, the system failed to reconcile it with the modern country name "turkiye".
+\\ \\
+\textit{Neo4j Visualization:}
+\begin{center}
+    \framebox[0.8\textwidth]{\vbox to 100pt{\vfill \Large paste .. ss here \vfill}}
+\end{center}
+
+\subsection{Case Study \#2: TR\_016 (LLM Selection Error)}
+\textbf{Question:} Sehrazat's genre's subclass of is what? \\
+\textbf{Gold Answer:} Manufactured pop \\
+\textbf{System Answer:} Pop \\
+\textbf{Analysis:} \textbf{Error Category 4: LLM Selection Error.} The LLM provided a correct but overly broad answer. It failed the "Exact Match" metric because it didn't focus on the specific subclass path selected in the reasoning gold.
+
+\subsection{Case Study \#3: TR\_017 (Fact Ambiguity)}
+\textbf{Question:} Sehrazat's record label's country is what? \\
+\textbf{Gold Answer:} Germanz \\
+\textbf{System Answer:} Turkey \\
+\textbf{Analysis:} \textbf{Error Category 1: KG Data Deficiency.} EMI Odeon is global, but in the Turkish music context, it is often linked to Turkish distribution. The KG node lacked a definitive "country" relation that prioritized Germany during retrieval.
+
+\subsection{Case Study \#4: TR\_018 (Normalization Error)}
+\textbf{Question:} Sehrazat's place of birth's located in the administrative territorial entity is what? \\
+\textbf{Gold Answer:} Ankara Province \\
+\textbf{System Answer:} Galatia Salutaris, the vilayet of Angora, and Ankara Province. \\
+\textbf{Analysis:} \textbf{Normalization Error.} The system retrieved too many synonyms / historical names. While the correct answer is present, the formatting failed the Exact Match criteria. Recommendation: Add response normalization prompt.
+
+\subsection{Case Study \#5: TR\_021 (Evaluation Mismatch)}
+\textbf{Question:} Haluk Levent's place of birth's located in the administrative territorial entity is what? \\
+\textbf{Gold Answer:} adana province, turkey \\
+\textbf{System Answer:} Adana Province. \\
+\textbf{Analysis:} \textbf{Metric Error.} The answer was semantically correct but missed the specific string suffix ", turkey". This highlights the need for more robust F1/Semantic scoring over strict EM.
+
+\section{Recommendations}
+\begin{itemize}
+    \item \textbf{Alias Matching:} Implement fuzzy string matching for Turkish characters to reduce linking errors.
+    \item \textbf{Response Cleaning:} Add an extra post-processing step to normalize the final output to match template expectations.
+    \item \textbf{Domain Broadening:} Expand the KG to include more relation types for the Football and Cinema domains to reduce data deficiency errors.
+\end{itemize}
+
+\end{document}

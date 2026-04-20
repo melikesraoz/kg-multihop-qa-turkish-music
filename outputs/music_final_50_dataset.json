@@ -661,72 +661,77 @@
   },
   {
     "question_id": "TR_046",
-    "question_text": "Was Zulfu Livaneli or ilgın born earlier?",
+    "question_text": "Which artist was born in istanbul (turkey), İlhan Usmanbaş or Zulfu Livaneli?",
     "reasoning_path": [
+      "İlhan Usmanbaş",
+      "place of birth",
+      "istanbul (turkey)",
       "Zulfu Livaneli",
       "place of birth",
-      "ilgın",
-      "located in the administrative territorial entity",
-      "Konya Province"
+      "ilgın"
     ],
-    "gold_answer": "Zulfu Livaneli",
+    "gold_answer": "İlhan Usmanbaş",
     "difficulty": "comparison",
     "domain": "Turkish Music"
   },
   {
     "question_id": "TR_047",
-    "question_text": "Which artist was born in Erzerum (Theodosiopolis), Arif Sag or Theodosiopolis (Armenia)?",
-    "reasoning_path": [
-      "Arif Sag",
-      "place of birth",
-      "Theodosiopolis (Armenia)",
-      "located in the administrative territorial entity",
-      "Erzerum (Theodosiopolis)"
-    ],
-    "gold_answer": "Arif Sag",
-    "difficulty": "comparison",
-    "domain": "Turkish Music"
-  },
-  {
-    "question_id": "TR_048",
-    "question_text": "Was Zulfu Livaneli or ilgın born earlier?",
-    "reasoning_path": [
-      "Zulfu Livaneli",
-      "place of birth",
-      "ilgın",
-      "located in the administrative territorial entity",
-      "Konya Province"
-    ],
-    "gold_answer": "Zulfu Livaneli",
-    "difficulty": "comparison",
-    "domain": "Turkish Music"
-  },
-  {
-    "question_id": "TR_049",
-    "question_text": "Which artist was born in Province of Osmaniye, ümit besen or osmaniye?",
+    "question_text": "Which artist was born in osmaniye, ümit besen or Hümeyra?",
     "reasoning_path": [
       "ümit besen",
       "place of birth",
       "osmaniye",
-      "located in the administrative territorial entity",
-      "Province of Osmaniye"
+      "Hümeyra",
+      "place of birth",
+      "istanbul (turkey)"
     ],
     "gold_answer": "ümit besen",
     "difficulty": "comparison",
     "domain": "Turkish Music"
   },
   {
-    "question_id": "TR_050",
-    "question_text": "Was Zulfu Livaneli or ilgın born earlier?",
+    "question_id": "TR_048",
+    "question_text": "Who was born in monaco of bavaria, Aynur Aydin or mete özgencil?",
     "reasoning_path": [
-      "Zulfu Livaneli",
+      "Aynur Aydin",
       "place of birth",
-      "ilgın",
-      "located in the administrative territorial entity",
-      "Konya Province"
+      "monaco of bavaria",
+      "mete özgencil",
+      "place of birth",
+      "istanbul (turkey)"
     ],
-    "gold_answer": "Zulfu Livaneli",
+    "gold_answer": "Aynur Aydin",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "TR_049",
+    "question_text": "Which artist was born in Angora, Turkey, Sehrazat or haluk levent?",
+    "reasoning_path": [
+      "Sehrazat",
+      "place of birth",
+      "Angora, Turkey",
+      "haluk levent",
+      "place of birth",
+      "adanija"
+    ],
+    "gold_answer": "Sehrazat",
+    "difficulty": "comparison",
+    "domain": "Turkish Music"
+  },
+  {
+    "question_id": "TR_050",
+    "question_text": "Which artist was born in adanija, haluk levent or İlhan Usmanbaş?",
+    "reasoning_path": [
+      "haluk levent",
+      "place of birth",
+      "adanija",
+      "İlhan Usmanbaş",
+      "place of birth",
+      "istanbul (turkey)"
+    ],
+    "gold_answer": "haluk levent",
     "difficulty": "comparison",
     "domain": "Turkish Music"
   }
-]
+]

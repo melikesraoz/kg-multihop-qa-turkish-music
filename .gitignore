@@ -19,6 +19,7 @@ venv/
 env/
 .env
 .venv/
+.env*
 
 # ========================
 # IDE / Editor
@@ -46,8 +47,11 @@ data/wikidata5m_raw_data/
 data/wikidata5m_kg/
 
 # Large CSV exports
-outputs/music_subset_nodes.csv
-outputs/music_subset_relationships.csv
+outputs/*.csv
+outputs/*.jsonl
+outputs/nodes.csv
+outputs/relationships.csv
+!outputs/music_final_50_dataset.json
 
 # ========================
 # Neo4j credentials

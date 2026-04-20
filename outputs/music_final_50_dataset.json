@@ -1,7 +1,7 @@
 [
   {
     "question_id": "TR_001",
-    "question_text": "In which country was Zulfu Livaneli born?",
+    "question_text": "Zulfu Livaneli's place of birth's country is what?",
     "reasoning_path": [
       "Zulfu Livaneli",
       "place of birth",
@@ -15,7 +15,7 @@
   },
   {
     "question_id": "TR_002",
-    "question_text": "In which administrative territorial entity is the birth place of Zulfu Livaneli located?",
+    "question_text": "Zulfu Livaneli's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "Zulfu Livaneli",
       "place of birth",
@@ -29,7 +29,7 @@
   },
   {
     "question_id": "TR_003",
-    "question_text": "In which administrative territorial entity is the birth place of Arif Sag located?",
+    "question_text": "Arif Sag's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "Arif Sag",
       "place of birth",
@@ -43,7 +43,7 @@
   },
   {
     "question_id": "TR_004",
-    "question_text": "In which country was Arif Sag born?",
+    "question_text": "Arif Sag's place of birth's country is what?",
     "reasoning_path": [
       "Arif Sag",
       "place of birth",
@@ -57,7 +57,7 @@
   },
   {
     "question_id": "TR_005",
-    "question_text": "What broader instrument class does the instrument used by Arif Sag belong to?",
+    "question_text": "Arif Sag's instrument's subclass of is what?",
     "reasoning_path": [
       "Arif Sag",
       "instrument",
@@ -71,7 +71,7 @@
   },
   {
     "question_id": "TR_006",
-    "question_text": "What type of music category is the genre associated with Arif Sag?",
+    "question_text": "Arif Sag's genre's instance of is what?",
     "reasoning_path": [
       "Arif Sag",
       "genre",
@@ -85,7 +85,7 @@
   },
   {
     "question_id": "TR_007",
-    "question_text": "In which country was ümit besen born?",
+    "question_text": "ümit besen's place of birth's country is what?",
     "reasoning_path": [
       "ümit besen",
       "place of birth",
@@ -99,7 +99,7 @@
   },
   {
     "question_id": "TR_008",
-    "question_text": "In which administrative territorial entity is the birth place of ümit besen located?",
+    "question_text": "ümit besen's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "ümit besen",
       "place of birth",
@@ -113,7 +113,7 @@
   },
   {
     "question_id": "TR_009",
-    "question_text": "What broader instrument class does the instrument used by ümit besen belong to?",
+    "question_text": "ümit besen's instrument's subclass of is what?",
     "reasoning_path": [
       "ümit besen",
       "instrument",
@@ -127,7 +127,7 @@
   },
   {
     "question_id": "TR_010",
-    "question_text": "In which country was Hümeyra born?",
+    "question_text": "Hümeyra's place of birth's country is what?",
     "reasoning_path": [
       "Hümeyra",
       "place of birth",
@@ -141,7 +141,7 @@
   },
   {
     "question_id": "TR_011",
-    "question_text": "In which administrative territorial entity is the birth place of Hümeyra located?",
+    "question_text": "Hümeyra's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "Hümeyra",
       "place of birth",
@@ -155,7 +155,7 @@
   },
   {
     "question_id": "TR_012",
-    "question_text": "In which country was mete özgencil born?",
+    "question_text": "mete özgencil's place of birth's country is what?",
     "reasoning_path": [
       "mete özgencil",
       "place of birth",
@@ -169,7 +169,7 @@
   },
   {
     "question_id": "TR_013",
-    "question_text": "In which administrative territorial entity is the birth place of mete özgencil located?",
+    "question_text": "mete özgencil's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "mete özgencil",
       "place of birth",
@@ -183,7 +183,7 @@
   },
   {
     "question_id": "TR_014",
-    "question_text": "What type of music category is the genre associated with mete özgencil?",
+    "question_text": "mete özgencil's genre's instance of is what?",
     "reasoning_path": [
       "mete özgencil",
       "genre",
@@ -197,7 +197,7 @@
   },
   {
     "question_id": "TR_015",
-    "question_text": "What type of music category is the genre associated with Sehrazat?",
+    "question_text": "Sehrazat's genre's instance of is what?",
     "reasoning_path": [
       "Sehrazat",
       "genre",
@@ -211,7 +211,7 @@
   },
   {
     "question_id": "TR_016",
-    "question_text": "What broader genre category does the music genre associated with Sehrazat belong to?",
+    "question_text": "Sehrazat's genre's subclass of is what?",
     "reasoning_path": [
       "Sehrazat",
       "genre",
@@ -225,7 +225,7 @@
   },
   {
     "question_id": "TR_017",
-    "question_text": "In which country is the record label associated with Sehrazat located?",
+    "question_text": "Sehrazat's record label's country is what?",
     "reasoning_path": [
       "Sehrazat",
       "record label",
@@ -239,7 +239,7 @@
   },
   {
     "question_id": "TR_018",
-    "question_text": "In which administrative territorial entity is the birth place of Sehrazat located?",
+    "question_text": "Sehrazat's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "Sehrazat",
       "place of birth",
@@ -253,7 +253,7 @@
   },
   {
     "question_id": "TR_019",
-    "question_text": "In which country was Sehrazat born?",
+    "question_text": "Sehrazat's place of birth's country is what?",
     "reasoning_path": [
       "Sehrazat",
       "place of birth",
@@ -267,7 +267,7 @@
   },
   {
     "question_id": "TR_020",
-    "question_text": "What broader instrument class does the instrument used by haluk levent belong to?",
+    "question_text": "haluk levent's instrument's subclass of is what?",
     "reasoning_path": [
       "haluk levent",
       "instrument",
@@ -281,7 +281,7 @@
   },
   {
     "question_id": "TR_021",
-    "question_text": "In which administrative territorial entity is the birth place of haluk levent located?",
+    "question_text": "haluk levent's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "haluk levent",
       "place of birth",
@@ -295,7 +295,7 @@
   },
   {
     "question_id": "TR_022",
-    "question_text": "In which country was haluk levent born?",
+    "question_text": "haluk levent's place of birth's country is what?",
     "reasoning_path": [
       "haluk levent",
       "place of birth",
@@ -309,7 +309,7 @@
   },
   {
     "question_id": "TR_023",
-    "question_text": "In which administrative territorial entity is the birth place of demet sagiroglu located?",
+    "question_text": "demet sagiroglu's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "demet sagiroglu",
       "place of birth",
@@ -323,7 +323,7 @@
   },
   {
     "question_id": "TR_024",
-    "question_text": "In which country was demet sagiroglu born?",
+    "question_text": "demet sagiroglu's place of birth's country is what?",
     "reasoning_path": [
       "demet sagiroglu",
       "place of birth",
@@ -337,7 +337,7 @@
   },
   {
     "question_id": "TR_025",
-    "question_text": "What type of music category is the genre associated with demet sagiroglu?",
+    "question_text": "demet sagiroglu's genre's instance of is what?",
     "reasoning_path": [
       "demet sagiroglu",
       "genre",
@@ -351,7 +351,7 @@
   },
   {
     "question_id": "TR_026",
-    "question_text": "What broader genre category does the music genre associated with demet sagiroglu belong to?",
+    "question_text": "demet sagiroglu's genre's subclass of is what?",
     "reasoning_path": [
       "demet sagiroglu",
       "genre",
@@ -365,7 +365,7 @@
   },
   {
     "question_id": "TR_027",
-    "question_text": "In which country is the institution where İlhan Usmanbaş studied located?",
+    "question_text": "İlhan Usmanbaş's educated at's country is what?",
     "reasoning_path": [
       "İlhan Usmanbaş",
       "educated at",
@@ -379,7 +379,7 @@
   },
   {
     "question_id": "TR_028",
-    "question_text": "In which country was İlhan Usmanbaş born?",
+    "question_text": "İlhan Usmanbaş's place of birth's country is what?",
     "reasoning_path": [
       "İlhan Usmanbaş",
       "place of birth",
@@ -393,7 +393,7 @@
   },
   {
     "question_id": "TR_029",
-    "question_text": "In which administrative territorial entity is the birth place of İlhan Usmanbaş located?",
+    "question_text": "İlhan Usmanbaş's place of birth's located in the administrative territorial entity is what?",
     "reasoning_path": [
       "İlhan Usmanbaş",
       "place of birth",
@@ -407,7 +407,7 @@
   },
   {
     "question_id": "TR_030",
-    "question_text": "What type of award has İlhan Usmanbaş received?",
+    "question_text": "İlhan Usmanbaş's award received's instance of is what?",
     "reasoning_path": [
       "İlhan Usmanbaş",
       "award received",
@@ -421,7 +421,7 @@
   },
   {
     "question_id": "TR_031",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of Zulfu Livaneli located?",
+    "question_text": "Zulfu Livaneli's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "Zulfu Livaneli",
       "place of birth",
@@ -437,7 +437,7 @@
   },
   {
     "question_id": "TR_032",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of Arif Sag located?",
+    "question_text": "Arif Sag's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "Arif Sag",
       "place of birth",
@@ -453,7 +453,7 @@
   },
   {
     "question_id": "TR_033",
-    "question_text": "What broader family does the instrument used by Arif Sag belong to?",
+    "question_text": "Arif Sag's instrument's subclass of's subclass of is what?",
     "reasoning_path": [
       "Arif Sag",
       "instrument",
@@ -469,7 +469,7 @@
   },
   {
     "question_id": "TR_034",
-    "question_text": "What broader family does the instrument used by Arif Sag belong to?",
+    "question_text": "Arif Sag's instrument's subclass of's subclass of is what?",
     "reasoning_path": [
       "Arif Sag",
       "instrument",
@@ -485,7 +485,7 @@
   },
   {
     "question_id": "TR_035",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of ümit besen located?",
+    "question_text": "ümit besen's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "ümit besen",
       "place of birth",
@@ -501,7 +501,7 @@
   },
   {
     "question_id": "TR_036",
-    "question_text": "What broader family does the instrument used by ümit besen belong to?",
+    "question_text": "ümit besen's instrument's subclass of's subclass of is what?",
     "reasoning_path": [
       "ümit besen",
       "instrument",
@@ -517,7 +517,7 @@
   },
   {
     "question_id": "TR_037",
-    "question_text": "What broader musical family does the genre associated with Sehrazat belong to?",
+    "question_text": "Sehrazat's genre's subclass of's subclass of is what?",
     "reasoning_path": [
       "Sehrazat",
       "genre",
@@ -533,7 +533,7 @@
   },
   {
     "question_id": "TR_038",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of Sehrazat located?",
+    "question_text": "Sehrazat's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "Sehrazat",
       "place of birth",
@@ -549,7 +549,7 @@
   },
   {
     "question_id": "TR_039",
-    "question_text": "What broader family does the instrument used by haluk levent belong to?",
+    "question_text": "haluk levent's instrument's subclass of's subclass of is what?",
     "reasoning_path": [
       "haluk levent",
       "instrument",
@@ -565,7 +565,7 @@
   },
   {
     "question_id": "TR_040",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of haluk levent located?",
+    "question_text": "haluk levent's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "haluk levent",
       "place of birth",
@@ -581,7 +581,7 @@
   },
   {
     "question_id": "TR_041",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of demet sagiroglu located?",
+    "question_text": "demet sagiroglu's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "demet sagiroglu",
       "place of birth",
@@ -597,7 +597,7 @@
   },
   {
     "question_id": "TR_042",
-    "question_text": "What broader musical family does the genre associated with demet sagiroglu belong to?",
+    "question_text": "demet sagiroglu's genre's subclass of's subclass of is what?",
     "reasoning_path": [
       "demet sagiroglu",
       "genre",
@@ -613,7 +613,7 @@
   },
   {
     "question_id": "TR_043",
-    "question_text": "In which country is the administrative territorial entity containing the institution where İlhan Usmanbaş studied located?",
+    "question_text": "İlhan Usmanbaş's educated at's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "İlhan Usmanbaş",
       "educated at",
@@ -629,7 +629,7 @@
   },
   {
     "question_id": "TR_044",
-    "question_text": "What broader class does an award received by İlhan Usmanbaş belong to?",
+    "question_text": "İlhan Usmanbaş's award received's instance of's subclass of is what?",
     "reasoning_path": [
       "İlhan Usmanbaş",
       "award received",
@@ -645,7 +645,7 @@
   },
   {
     "question_id": "TR_045",
-    "question_text": "In which country is the administrative territorial entity containing the birth place of Aynur Aydin located?",
+    "question_text": "Aynur Aydin's place of birth's located in the administrative territorial entity's country is what?",
     "reasoning_path": [
       "Aynur Aydin",
       "place of birth",
@@ -661,7 +661,7 @@
   },
   {
     "question_id": "TR_046",
-    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or Arif Sag?",
+    "question_text": "Was Zulfu Livaneli or ilgın born earlier?",
     "reasoning_path": [
       "Zulfu Livaneli",
       "place of birth",
@@ -675,7 +675,7 @@
   },
   {
     "question_id": "TR_047",
-    "question_text": "Which artist was born in Erzerum (Theodosiopolis), Zulfu Livaneli or Arif Sag?",
+    "question_text": "Which artist was born in Erzerum (Theodosiopolis), Arif Sag or Theodosiopolis (Armenia)?",
     "reasoning_path": [
       "Arif Sag",
       "place of birth",
@@ -689,7 +689,7 @@
   },
   {
     "question_id": "TR_048",
-    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or ümit besen?",
+    "question_text": "Was Zulfu Livaneli or ilgın born earlier?",
     "reasoning_path": [
       "Zulfu Livaneli",
       "place of birth",
@@ -703,7 +703,7 @@
   },
   {
     "question_id": "TR_049",
-    "question_text": "Which artist was born in Province of Osmaniye, Zulfu Livaneli or ümit besen?",
+    "question_text": "Which artist was born in Province of Osmaniye, ümit besen or osmaniye?",
     "reasoning_path": [
       "ümit besen",
       "place of birth",
@@ -717,7 +717,7 @@
   },
   {
     "question_id": "TR_050",
-    "question_text": "Which artist was born in Konya Province, Zulfu Livaneli or Hümeyra?",
+    "question_text": "Was Zulfu Livaneli or ilgın born earlier?",
     "reasoning_path": [
       "Zulfu Livaneli",
       "place of birth",

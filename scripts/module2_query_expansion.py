@@ -7,9 +7,16 @@ sistemin odaklanmasi gereken yeni ve daha belirgin bir soru jenerasyonu
 """
 from llm_client import ask_llm
 
-def expand_query(original_query: str, kg_summary: str) -> str:
-    """Graf ozetiyle soruyu daha belirgin hale getirerek 'Graph Query Expansion' yapar."""
-    prompt = f"""You are an expert NLP system for a Knowledge Graph.
+def expand_query(original_query: str, kg_summary: str = "") -> str:
+    """Graf ozetiyle (varsa) soruyu daha belirgin hale getirerek 'Query Expansion' yapar."""
+    if not kg_summary or "No relevant graph facts found" in kg_summary:
+        prompt = f"""You are an AI assistant. Rewrite the following question to make it more descriptive and clear for a retrieval system. 
+Stay true to the original intent but add potential synonyms or clarifications if needed.
+Original Question: "{original_query}"
+Reply with ONLY the rewritten question.
+"""
+    else:
+        prompt = f"""You are an expert NLP system for a Knowledge Graph.
 Original Question: "{original_query}"
 Knowledge Graph Context:
 {kg_summary}

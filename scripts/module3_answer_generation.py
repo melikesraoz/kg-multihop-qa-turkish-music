@@ -1,23 +1,23 @@
-"""
-module3_answer_generation.py - Pure Graph Answer Generation
-
-Graf uzerinden toplanan bilgileri kullanarak 
-son cevabi uretir. Hicbir sekilde harici metin (corpus) kullanmaz.
-"""
 from llm_client import ask_llm
 
-def generate_answer(query: str, kg_summary: str) -> str:
-    """Nihai cevabi yalnizca Neo4j graf ozetine bakarak uretir."""
-    prompt = f"""You are a GraphRAG Expert. Based STRICTLY on the Knowledge Graph Facts provided below, answer the user's question as accurately and concisely as possible.
-If the graph facts do not contain the answer, say "The provided graph data does not contain the answer."
+def generate_answer(query: str, context: str) -> str:
+    """Nihai cevabi verilen bağlama (graf özeti veya metin pasajı) bakarak üretir."""
+    if not context or context.strip() == "":
+        prompt = f"""You are an expert AI. Please answer the following question based on your internal knowledge.
+Question: "{query}"
+Instruction: Provide ONLY the answer. Do not add conversational filler.
+Answer:"""
+    else:
+        prompt = f"""You are an expert AI. Based on the CONTEXT provided below (which may include Knowledge Graph facts or Wikipedia passages), answer the user's question as accurately and concisely as possible.
 
-Knowledge Graph Facts:
-{kg_summary}
+CONTEXT:
+{context}
 
 Question: "{query}"
 
-Instruction: Provide ONLY the answer. Do not add conversational filler.
+Instruction: Provide ONLY the answer. Do not add conversational filler. If the context does not contain the answer, use your knowledge but prioritize the context if it is relevant.
 Answer:"""
+    
     try:
         return ask_llm(prompt)
     except Exception as e:

@@ -8,6 +8,27 @@ from typing import List, Dict, Set
 from neo4j import GraphDatabase
 from llm_client import ask_llm
 
+def get_entity_details(session, entity_id: str):
+    """Verilen entity_id'nin tum detaylarini (name, description) getirir."""
+    res = session.run("MATCH (e:Entity {entityId: $eid}) RETURN e.name AS name, e.description AS description", eid=entity_id).single()
+    if res:
+        return {"name": res["name"], "description": res["description"]}
+    return None
+
+def fetch_entity_descriptions(session, entity_ids: List[str]) -> List[str]:
+    """Verilen entity_ids listesindeki dugumlerin aciklamalarini (descriptions) getirir."""
+    cypher = """
+    UNWIND $eids AS eid
+    MATCH (e:Entity {entityId: eid})
+    WHERE e.description IS NOT NULL AND e.description <> ""
+    RETURN e.description AS desc
+    """
+    results = []
+    for record in session.run(cypher, eids=entity_ids):
+        if record["desc"]:
+            results.append(record["desc"])
+    return results
+
 def find_seed(session, query: str):
     """
     Sorguya en uygun baslangic entity'sini (seed) bulur.

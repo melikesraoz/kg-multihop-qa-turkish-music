@@ -1,0 +1,10 @@
+{
+  "question": "Ümit Besen ve Hümeyra arasında Osmaniye doğumlu olan hangisidir?",
+  "seed_entity": {
+    "entity_id": "Q334814",
+    "name": "ümit besen"
+  },
+  "module1_kg_summary": "Ümit Besen, Osmaniye'de doğdu.",
+  "module2_augmented_query": "\"Ümit Besen ve Hümeyra arasında Osmaniye'de doğan Ümit Besen'dir mi?\"",
+  "final_answer": "Evet, Ümit Besen ve Hümeyra arasında Osmaniye'de doğan Ümit Besen'dir."
+}

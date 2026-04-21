@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Hop QA · KG-Infused RAG · Türkiye Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="data.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+
+            <ul class="nav-links">
+                <li class="active" onclick="showSection('kg')"><span class="icon"></span> Knowledge Graph</li>
+                <li onclick="showSection('cypher')"><span class="icon"></span> Cypher Queries</li>
+                <li onclick="showSection('gnn')"><span class="icon"></span> GNN Model</li>
+                <li onclick="showSection('xai')"><span class="icon"></span> XAI Evidence</li>
+            </ul>
+            <div class="sidebar-footer">
+                <p>CSE 474/5074 | SNA</p>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Section: KNOWLEDGE GRAPH -->
+            <section id="kg" class="dashboard-section active">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <label>TURKEY ENTITIES</label>
+                        <div class="stat-value" id="stat-ent">5,041</div>
+                        <p class="card-note">Directly connected to Q43</p>
+                    </div>
+                    <div class="stat-card">
+                        <label>TOTAL RELATIONS</label>
+                        <div class="stat-value" id="stat-rel">12,378</div>
+                        <p class="card-note">Across Turkish Subgraph</p>
+                    </div>
+                    <div class="stat-card">
+                        <label>2-HOP PATHS</label>
+                        <div class="stat-value" id="stat-paths">84,291</div>
+                        <p class="card-note">Valid reasoning chains</p>
+                    </div>
+                    <div class="stat-card">
+                        <label>DOMAINS</label>
+                        <div class="stat-value highlight"># 5</div>
+                        <p class="card-note">Football · Cinema · Biz · Music · Academia</p>
+                    </div>
+                </div>
+
+                <div class="grid g12">
+                    <div class="card s8 chart-row">
+                        <h3>TURKISH MUSIC SUBGRAPH</h3>
+                        <div id="subgraph-viz" class="viz-placeholder">
+                            <div class="graph-node main" style="top: 50%; left: 50%;">TR</div>
+                            <div class="graph-node node-1" style="top: 20%; left: 30%;">MUSIC</div>
+                            <div class="graph-node node-2" style="top: 70%; left: 20%;">CITIES</div>
+                            <div class="graph-node node-3" style="top: 30%; left: 80%;">SPORTS</div>
+                            <svg class="connections">
+                                <line x1="50%" y1="50%" x2="30%" y2="20%" />
+                                <line x1="50%" y1="50%" x2="20%" y2="70%" />
+                                <line x1="50%" y1="50%" x2="80%" y2="30%" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card s4 chart-row">
+                        <h3>ENTITY DISTRIBUTION</h3>
+                        <canvas id="distChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="grid g12 mt1">
+                    <div class="card s7 chart-row">
+                        <h3>SEED ENTITIES — TURKISH MUSIC</h3>
+                        <div class="tbl-wrap">
+                            <table class="compact-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Type</th>
+                                        <th>Relations</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="seed-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card s5 chart-row">
+                        <h3>TOP RELATION TYPES</h3>
+                        <canvas id="relBarChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="grid g12 mt1">
+                    <div class="card s7">
+                        <h3>SAMPLE TRIPLETS (RAW)</h3>
+                        <div id="triplet-list" class="technical-list"></div>
+                    </div>
+                    <div class="card s5 text-block-card">
+                        <h3>MULTI-HOP QUESTION DATASET — SUMMARY</h3>
+                        <div class="info-text">
+                            <strong>2-HOP QUESTIONS (30)</strong>
+                            <p>Artist → Genre | Artist → Record Label | Artist → Birth City</p>
+                            <br>
+                            <strong>3-HOP QUESTIONS (15)</strong>
+                            <p>Artist → Record Label → Country | Album → Performer → City</p>
+                            <br>
+                            <strong>COMPARISON QUESTIONS (5)</strong>
+                            <p>Awards comparison | Birth year comparison | Genre count comparison</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: CYPHER QUERIES -->
+            <section id="cypher" class="dashboard-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>QUERY TEMPLATES</h3>
+                        <div class="stat-value highlight"># 8</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>AVG EXEC TIME</h3>
+                        <div class="stat-value">24.1 ms</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>MAX HOPS</h3>
+                        <div class="stat-value highlight"># 3</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>RESULT ROWS</h3>
+                        <div class="stat-value">9,814</div>
+                    </div>
+                </div>
+                <div class="grid g12 mt1">
+                    <div class="card s4">
+                        <h3>QUERY LIBRARY</h3>
+                        <ul class="bullet-list">
+                            <li>Türkiye Root Entity</li>
+                            <li>Turkish Music Artists Detection</li>
+                            <li>Artist ↔ Genre</li>
+                            <li>Artist ↔ Record Label</li>
+                            <li>Artist ↔ Birth Place</li>
+                            <li>Artist ↔ Award Received</li>
+                        </ul>
+                    </div>
+                    <div class="card s8">
+                        <h3>CYPHER STATEMENT</h3>
+                        <pre class="code-block">MATCH (e:Entity)
+WHERE e.name CONTAINS 'Turkey' OR e.name CONTAINS 'Türkiye'
+RETURN e.entityId AS id, e.name AS name
+LIMIT 5</pre>
+                        <div class="mt1">
+                            <h3>QUERY RESULTS</h3>
+                            <div class="tbl-wrap">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>id</th>
+                                            <th>name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Q43</td>
+                                            <td>Turkey</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Q43655</td>
+                                            <td>Turkish State</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: GNN MODEL -->
+            <section id="gnn" class="dashboard-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>MODEL</h3>
+                        <div class="stat-value highlight">R-GAT</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>LAYERS</h3>
+                        <div class="stat-value"># 4</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>BEST F1 SCORE</h3>
+                        <div class="stat-value highlight">0.847</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>EPOCHS</h3>
+                        <div class="stat-value">120</div>
+                    </div>
+                </div>
+                <div class="grid g12 mt1">
+                    <div class="card s6 chart-row">
+                        <h3>R-GAT ARCHITECTURE</h3>
+                        <div class="ascii-arch">
+                            <div class="arch-box">INPUT: Entity Embeddings (4.8M × 256)</div>
+                            <div class="arch-arrow">↓</div>
+                            <div class="arch-box highlight">LAYER 1–2: R-GAT Conv (256-dim, 8 heads)</div>
+                            <div class="arch-arrow">↓</div>
+                            <div class="arch-box highlight">LAYER 3–4: R-GAT Conv (128-dim, 4 heads)</div>
+                            <div class="arch-arrow">↓</div>
+                            <div class="arch-box secondary">OUTPUT: Softmax + Triplet Loss</div>
+                        </div>
+                    </div>
+                    <div class="card s6 chart-row">
+                        <h3>TRAINING CURVES</h3>
+                        <canvas id="curveChart"></canvas>
+                    </div>
+                </div>
+                <div class="grid g12 mt1">
+                    <div class="card s7 chart-row">
+                        <h3>METHOD COMPARISON — 50 QUESTIONS</h3>
+                        <div class="tbl-wrap">
+                            <table id="comp-table">
+                                <thead>
+                                    <tr>
+                                        <th>Method</th>
+                                        <th>Acc (%)</th>
+                                        <th>F1</th>
+                                        <th>EM</th>
+                                        <th>Recall</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card s5 chart-row">
+                        <h3>DOMAIN-BASED F1 SCORE</h3>
+                        <canvas id="domainBarChart"></canvas>
+                    </div>
+                </div>
+                <div class="card mt1">
+                    <h3>EMBEDDING SPACE — T-SNE PROJECTION</h3>
+                    <p class="card-note">Visualizing clustered entities from the Türkiye Subgraph.</p>
+                </div>
+            </section>
+
+            <!-- Section: XAI EVIDENCE -->
+            <section id="xai" class="dashboard-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>CASE STUDIES</h3>
+                        <div class="stat-value"># 10</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>AVG ROUNDS</h3>
+                        <div class="stat-value">3.2</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>LINK ACCURACY</h3>
+                        <div class="stat-value">91.4%</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>DOMINANT ERROR</h3>
+                        <div class="stat-value highlight">KG Gap</div>
+                    </div>
+                </div>
+                <div class="grid g12 mt1">
+                    <div class="card s5 chart-row">
+                        <h3>QUESTION</h3>
+                        <div class="info-text highlight-box" id="xai-question">Loading...</div>
+                        <div class="mt1">
+                            <h3>REASONING PATH</h3>
+                            <div id="xai-path" class="path-visual"></div>
+                        </div>
+                    </div>
+                    <div class="card s7 chart-row">
+                        <h3>SPREADING ACTIVATION TRACE</h3>
+                        <div id="xai-trace" class="trace-container" style="flex-grow: 1; overflow-y: auto;"></div>
+                        <div class="mt1">
+                            <h3>ANSWER EXTRACTED</h3>
+                            <div id="xai-answer" class="info-text secondary-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid g12 mt1">
+                    <div class="card s6 chart-row">
+                        <h3>FEATURE IMPORTANCE — RELATION TYPES</h3>
+                        <canvas id="importanceChart"></canvas>
+                    </div>
+                    <div class="card s6 chart-row">
+                        <h3>ATTENTION HEATMAP — LAYER 4</h3>
+                        <div class="viz-placeholder" style="flex-grow:1; height:auto;">
+                            <div style="padding: 2rem; color: var(--text-dim); font-size: 0.8rem;">Concentrated weights on PLACE_OF_BIRTH and GENRE relations.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

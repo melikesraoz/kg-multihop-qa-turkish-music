@@ -23,7 +23,7 @@ def main(question: str):
     print_header(f"QUESTION: {question}")
     
     # 0. Altyapiyi hazirla
-    print("\n[Init] Sadece Neo4j Veritabanina Baglaniliyor... (Corpus YOK)")
+    print("\n[Init] Neo4j Veritabanina Baglaniliyor...")
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
     
     kg_summary = ""

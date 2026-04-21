@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎵 MusicKG-QA: Turkish Music Domain
+# MusicKG-QA: Turkish Music Domain
 ### KG-Infused RAG for Multi-Hop Question Answering
 
 **Wikidata5M · Neo4j · Spreading Activation · R-GAT Architecture**
@@ -13,7 +13,7 @@
 
 ---
 
-## 🔍 Overview
+## Overview
 
 **MusicKG-QA** is an end-to-end framework for answering complex, multi-hop natural language questions in the **Turkish Music** domain. By navigating a domain-specific Knowledge Graph (KG) extracted from **Wikidata5M**, the system overcomes the limitations of standard RAG models that struggle with reasoning gaps and hallucination in low-resource or niche domains.
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 🏗 Modular Architecture
+## Modular Architecture
 
 The project is structured into modular components to ensure scientific reproducibility:
 
@@ -34,7 +34,7 @@ The project is structured into modular components to ensure scientific reproduci
 
 ---
 
-## 🖥 Interactive Presentation Dashboard
+## Interactive Presentation Dashboard
 
 The project includes a **Premium Web Dashboard** for visual analysis of experimental results and KG connectivity.
 
@@ -47,7 +47,7 @@ Simply open `dashboard/index.html` in any modern browser.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -74,7 +74,7 @@ Simply open `dashboard/index.html` in any modern browser.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 - **Neo4j 5.x**: Ensure a local instance is running.
@@ -104,7 +104,7 @@ python scripts/run_experiments.py
 
 ---
 
-## 📊 Evaluation Results
+## Evaluation Results
 
 | Method | Accuracy | F1 Score | EM | Recall |
 | :--- | :--- | :--- | :--- | :--- |
@@ -116,7 +116,7 @@ python scripts/run_experiments.py
 
 ---
 
-## 📜 Academic Deliverables
+## Academic Deliverables
 
 This repository fulfills the requirements for **CSE 474/5074 - Social Network Analysis**:
 - **Phase 1-2**: Dataset Analysis & Türkiye Domain Selection.
